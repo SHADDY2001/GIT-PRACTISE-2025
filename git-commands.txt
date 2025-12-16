@@ -1,0 +1,130 @@
+Absolutely! Here’s a **clean, complete list of all Git commands we used above**, baby-mode style 🍼🔥
+
+---
+
+## **1️⃣ Initialize Git repo**
+
+```bash
+cd C:\Users\PMLS\Desktop\DEVOPS
+git init
+```
+
+---
+
+## **2️⃣ Check Git status**
+
+```bash
+git status
+```
+
+---
+
+## **3️⃣ Add files**
+
+* Add **all files**:
+
+```bash
+git add .
+```
+
+* Add **specific file**:
+
+```bash
+git add filename.py
+```
+
+---
+
+## **4️⃣ Commit changes**
+
+```bash
+git commit -m "Your commit message"
+```
+
+Example:
+
+```bash
+git commit -m "Initial commit - add devops-baby project files"
+```
+
+---
+
+## **5️⃣ Check or change Git user**
+
+* Check current user:
+
+```bash
+git config --global user.name
+git config --global user.email
+```
+
+* Change global user:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
+
+* Change user **only for this repo**:
+
+```bash
+git config user.name "Repo Specific Name"
+git config user.email "repoemail@example.com"
+```
+
+---
+
+## **6️⃣ Add remote GitHub repo**
+
+```bash
+git remote add origin <your-repo-URL>
+```
+
+Example:
+
+```bash
+git remote add origin https://github.com/SHADDY2001/devops-baby.git
+```
+
+---
+
+## **7️⃣ Rename branch to main**
+
+```bash
+git branch -M main
+```
+
+---
+
+## **8️⃣ Push to GitHub**
+
+```bash
+git push -u origin main
+```
+
+* For subsequent pushes after first commit:
+
+```bash
+git push origin main
+```
+
+---
+
+## **9️⃣ View remote URL**
+
+```bash
+git remote -v
+```
+
+---
+
+## **🔥 Shortcut Workflow for adding new files**
+
+Every time you create a new file:
+
+```bash
+git add .
+git commit -m "Add new file"
+git push origin main
+```
+
